@@ -17,7 +17,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnlineMarket.Service", "src
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnlineMarket.UnitTest", "test\OnlineMarket.UnitTest\OnlineMarket.UnitTest.csproj", "{57DB93F5-05B9-413A-A5B0-E03616BB6F6C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineMarket.IntegrationTest", "OnlineMarket.IntegrationTest\OnlineMarket.IntegrationTest.csproj", "{729B17B9-9851-4515-B135-BF5FAD8B69D0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnlineMarket.IntegrationTest", "test\OnlineMarket.IntegrationTest\OnlineMarket.IntegrationTest.csproj", "{6206F683-8AF2-4F73-B643-917F5FF5C71F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,10 +45,10 @@ Global
 		{57DB93F5-05B9-413A-A5B0-E03616BB6F6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{57DB93F5-05B9-413A-A5B0-E03616BB6F6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{57DB93F5-05B9-413A-A5B0-E03616BB6F6C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{729B17B9-9851-4515-B135-BF5FAD8B69D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{729B17B9-9851-4515-B135-BF5FAD8B69D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{729B17B9-9851-4515-B135-BF5FAD8B69D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{729B17B9-9851-4515-B135-BF5FAD8B69D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6206F683-8AF2-4F73-B643-917F5FF5C71F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6206F683-8AF2-4F73-B643-917F5FF5C71F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6206F683-8AF2-4F73-B643-917F5FF5C71F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6206F683-8AF2-4F73-B643-917F5FF5C71F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -59,7 +59,7 @@ Global
 		{F39AC3C2-2D5B-47AE-93F6-70F86BFC65C8} = {B9B5E997-96C8-48E4-88F2-BBBE9A0CDA22}
 		{A0ACD312-F6A7-4551-929C-13936EDBDC76} = {B9B5E997-96C8-48E4-88F2-BBBE9A0CDA22}
 		{57DB93F5-05B9-413A-A5B0-E03616BB6F6C} = {CA08AB00-BBCF-403C-93C9-470CCF83AE22}
-		{729B17B9-9851-4515-B135-BF5FAD8B69D0} = {CA08AB00-BBCF-403C-93C9-470CCF83AE22}
+		{6206F683-8AF2-4F73-B643-917F5FF5C71F} = {CA08AB00-BBCF-403C-93C9-470CCF83AE22}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D6B4555B-0775-46FC-8D4E-95BD9C20AAB0}
