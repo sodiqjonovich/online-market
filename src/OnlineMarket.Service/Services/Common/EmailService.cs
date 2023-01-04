@@ -1,4 +1,6 @@
-﻿using MimeKit;
+﻿using MailKit.Net.Smtp;
+using Microsoft.Extensions.Configuration;
+using MimeKit;
 using MimeKit.Text;
 using OnlineMarket.Service.Dtos.Common;
 using OnlineMarket.Service.Interfaces.Common;
