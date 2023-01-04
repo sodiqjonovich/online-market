@@ -9,10 +9,12 @@ using OnlineMarket.DataAccess.Repositories.Categories;
 using OnlineMarket.DataAccess.Repositories.Employees;
 using OnlineMarket.DataAccess.Repositories.Orders;
 using OnlineMarket.DataAccess.Repositories.Products;
+using OnlineMarket.DataAccess.Repositories.Users;
 
 namespace OnlineMarket.DataAccess.Repositories;
 public class UnitOfWork : IUnitOfWork
 {
+    private readonly AppDbContext dbContext;
     public ICategoryRepository Categories { get; }
 
     public IAdministratorRepository Administrators { get; }
@@ -31,6 +33,7 @@ public class UnitOfWork : IUnitOfWork
 
     public UnitOfWork(AppDbContext appDbContext)
     {
+        this.dbContext = appDbContext;
         Categories = new CategoryRepository(appDbContext);
 
         Administrators = new AdministratorRepository(appDbContext);
@@ -46,5 +49,10 @@ public class UnitOfWork : IUnitOfWork
         Products = new ProductRepository(appDbContext);
 
         Users = new UserRepository(appDbContext);
+    }
+
+    public async Task<int> SaveChangesAsync()
+    {
+        return await dbContext.SaveChangesAsync();
     }
 }
