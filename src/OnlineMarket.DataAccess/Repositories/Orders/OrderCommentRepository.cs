@@ -8,4 +8,9 @@ public class OrderCommentRepository : GenericRepository<OrderComment>, IOrderCom
     public OrderCommentRepository(AppDbContext context) : base(context)
     {
     }
+
+    public IQueryable<OrderComment> GetAll(long orderId)
+    {
+        throw new NotImplementedException();
+    }
 }

@@ -1,8 +1,8 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿global using OnlineMarket.Service.Interfaces.Categories;
+using Microsoft.EntityFrameworkCore;
 using OnlineMarket.DataAccess.Interfaces;
 using OnlineMarket.Domain.Entities.Categories;
 using OnlineMarket.Service.Common.Utils;
-using OnlineMarket.Service.Interfaces.Categories;
 
 namespace OnlineMarket.Service.Services.Categories;
 public class CategoryService : ICategoryService
